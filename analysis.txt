@@ -1,1 +1,17 @@
+Insights from Data Inspection
+The dataset has 17,686 rows and 16 columns.
+All columns are non-null, meaning there are no missing values.
+Numerical columns include:
+Age: Ranges from 18 to 90 years.
+BMI: Ranges from 18.5 to 40.
+TumorSize: Ranges from 1 to 10.
+SurvivalMonths: Ranges from 1 to 120.
 
+Correlation Heatmap
+The correlation matrix shows weak correlations among all numerical variables.
+TumorSize and SurvivalMonths have a near-zero correlation (
+𝑟
+=
+0.00
+r=0.00).
+BMI, Age, and other features also show no significant correlation with each other.
